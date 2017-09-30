@@ -1,0 +1,22 @@
+{
+  "name": "ioc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist",
+  "scripts": {
+    "test": "ts-node node_modules/tape/bin/tape src/**/*.spec.ts",
+    "coverage": "nyc node_modules/tape/bin/tape 'src/**/*.spec.ts'",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
+  },
+  "author": "Jordan Drake",
+  "devDependencies": {
+    "@types/sinon": "2.3.5",
+    "@types/tape": "4.2.30",
+    "nyc": "11.2.1",
+    "sinon": "4.0.0",
+    "tape": "4.8.0",
+    "ts-node": "3.3.0",
+    "tslint": "5.7.0",
+    "typescript": "2.5.3"
+  }
+}

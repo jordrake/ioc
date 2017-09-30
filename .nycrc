@@ -1,0 +1,10 @@
+{
+  "all": true,
+  "require": "ts-node/register",
+  "extension": [
+    ".ts"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ]
+}
