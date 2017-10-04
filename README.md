@@ -90,7 +90,12 @@ container.execute(['$get'], ($get) => {
 });
 ```
 
-See the `src/examples` folder for more examples.
+### Execute
+`container.execute` is a method which takes an anonymous factory with optional dependencies and immediately executes it. This can be useful as your top-level or 'main' function.
 
 ### Testing
 All register methods return the original value/function/class so you can test as you would normally. See `src/examples/basic` for some practical examples of this.
+
+### Examples
+
+See the `src/examples` folder
